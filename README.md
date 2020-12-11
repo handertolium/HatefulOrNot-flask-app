@@ -45,4 +45,6 @@ Go to 127.0.0.1:5000
 
 ## How does the web app look?
 ![Positive result](/img_for_readme/positive_photo.png)
+
+
 ![Hateful result](/img_for_readme/hateful_photo.png)
