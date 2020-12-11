@@ -7,8 +7,8 @@ from keras.preprocessing.sequence import pad_sequences
 import pickle
 import re
 
-model = keras.models.load_model("/models/Model.h5")
-with open("/models/tokenizer.pickle", "rb") as tok:
+model = keras.models.load_model("./models/Model.h5")
+with open("./models/tokenizer.pickle", "rb") as tok:
 	tokenizer = pickle.load(tok)
 
 
@@ -44,4 +44,4 @@ def predict():
 		return render_template("home.html")
 	
 if __name__ == "__main__":
-	app.run(host ='0.0.0.0', port = 5001, debug = True)
+	app.run()
