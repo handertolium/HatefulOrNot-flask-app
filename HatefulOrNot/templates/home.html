@@ -9,7 +9,7 @@
 <h1 class="title">HatefulOrNot</h1>
 <div class="content-section">
 <form action="/predict" method="POST">
-	<textarea class="form-control form-control-lg" type="text" name="text" rows=10>Enter something to see if your text is hateful or positive.</textarea>
+	<textarea class="form-control form-control-lg" type="text" name="text" rows=10 placeholder="Enter something to see if your text is hateful or positive."></textarea>
 	<input type="submit" name="submit" value="Submit"  class="btn btn-success">
 	{% if prediction == 1 %}
 	<h2 class="positive">{{ "Positive!" }}</h2>
