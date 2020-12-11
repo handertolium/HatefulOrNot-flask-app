@@ -1,7 +1,8 @@
-# Sentiment_analysis_of_Reddit_posts
+# HatefulOrNot web app
 
 Sentiment analysis is done on reddit posts dataset, using **tensorflow** and **keras** frameworks. Data consists of over 24000 negative and positive posts.
-My model uses single LSTM layer, which gives **87.5%** accuracy.
+My model uses single LSTM layer, which gives **87.5%** accuracy. A second part of this repo focuses on integrating saved model into a flask web app called HatefulOrNot.
+
 
 **Dataset**: [Twitter and Reddit Sentimental analysis Dataset](https://www.kaggle.com/cosmos98/twitter-and-reddit-sentimental-analysis-dataset)
 
