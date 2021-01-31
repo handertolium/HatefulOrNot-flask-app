@@ -32,7 +32,7 @@ python app.py
 cd HatefulOrNot
 ```
 ```bash
-docker build -t HatefulOrNot-app
+docker build -t HatefulOrNot-app .
 ```
 ```bash
 docker run -p 5000:5000 -t -i HatefulOrNot-app:latest 
